@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/api/todo/
+Content-Type: application/json
+
+{
+  "title": "You are a bitch",
+  "complete": false
+}
+
+###
+PUT http://localhost:8080/api/todo/615940a4a48d10233cc3d6cc
+Content-Type: application/json
+
+{
+  "id": "615940a4a48d10233cc3d6cc",
+  "title": "fuck you",
+  "complete": true
+}
+
+###
+DELETE http://localhost:8080/api/todo/615940a4a48d10233cc3d6cc
